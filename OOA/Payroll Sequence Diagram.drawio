@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="xQzPIpNhK5gW9SiegH8x">
+    <mxGraphModel dx="1042" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Hr Manager" vertex="1">
+          <mxGeometry height="390" width="100" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="System" vertex="1">
+          <mxGeometry height="370" width="100" x="240" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Database" vertex="1">
+          <mxGeometry height="380" width="100" x="420" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-14" edge="1" parent="1" source="iuoYlpPnMHdORp7gKvd5-2" style="endArrow=classic;html=1;rounded=0;" value="Enter User Details">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="290" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="iuoYlpPnMHdORp7gKvd5-13" value="Calculate User Salary">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="200" as="sourcePoint" />
+            <mxPoint x="470" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Return Confrim Salary">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="230" as="sourcePoint" />
+            <mxPoint x="290" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.641;exitDx=0;exitDy=0;exitPerimeter=0;" value="Verify User Data">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="309.99" as="sourcePoint" />
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Generate Payslip">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="350" as="sourcePoint" />
+            <mxPoint x="470" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Display Confrim Salary">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="460" y="410" as="sourcePoint" />
+            <mxPoint x="300" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-21" edge="1" parent="1" source="iuoYlpPnMHdORp7gKvd5-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.314;exitDx=0;exitDy=0;exitPerimeter=0;" value="Store User Details">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="330" y="130" as="sourcePoint" />
+            <mxPoint x="470" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iuoYlpPnMHdORp7gKvd5-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="Process Payment">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="290" y="380" as="sourcePoint" />
+            <mxPoint x="470" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
